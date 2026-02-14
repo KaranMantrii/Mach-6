@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Web Store</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    body{
+        font-family: custom;
+    }
+  .custom-card {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4), 
+                0 0 40px rgba(138, 43, 226, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.6), 
+                0 0 60px rgba(138, 43, 226, 0.5);
+  }
+  @font-face{
+  font-family: custom;
+  src:url(font1.ttf)
+  }
+
+</style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="newindex.html">
+            <img src="logo3.png" alt="Mach 6" width="65" height="65" class=" rounded-pill me-2">
+            <span class="fw-bold fs-3 text-danger">MACH 6</span>
+        </a>
+        <span>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a class="nav-link" href="newregister.html">Register</a></li>
+            </ul>
+        </span>
+        <span>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a class="nav-link" href="newlogin.html">Log-in</a></li>
+            </ul>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="newindex.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="newproducts.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="newcart.html">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="newcontact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="text-center bg-light">
+    <span class="ms-2 fw-bold fs-2 "><h1>Welcome to Mach 6</h1>
+        <h3>-Ahead of the Future</h3></span>
+    <p>Our Top Tech Products</p>
+</div>
+
+<div class="container my-5">
+    <div class="row g-5">
+
+        <div class="col-md-4">
+            <div class="card custom-card mb-3">
+                <img src="robot.png" class="card-img-top" alt="robot">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-bold fs-1">Doraemon</h4>
+                    <p class="card-text">$50,000,000</p>
+                    <a href="cart1.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card custom-card mb-3">
+                <img src="copter.png" class="card-img-top" alt="copter">
+                <div class="card-body text-center">
+                    <h4 class="card-title fw-bold fs-1">Bamboo Copter</h4>
+                    <p class="card-text">$2,000,000</p>
+                    <a href="cart2.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4">
+            <div class="card custom-card mb-3">
+                <img src="light.png" class="card-img-top" alt="BigLight">
+                <div class="card-body text-center">
+                    <h4 class="card-title fs-bold fs-1">Big Light</h4>
+                    <p class="card-text">$1,500,000</p>
+                    <a href="cart3.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+    © 2090 Mach 6 | All Rights Reserved
+</footer>
+</body>
+</html>
